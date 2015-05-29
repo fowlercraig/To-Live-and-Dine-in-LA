@@ -29,11 +29,3 @@
 ?>
 
 <body <?php body_class('fs-grid'); ?>>
-  <div class="wrapper">
-  <header id="head">
-    <div class="fs-row">
-      <div class="fs-cell fs-lg-4 fs-md-2 fs-sm-3"><h1 id="logo"><a href="/"><?php bloginfo( 'name' ) ?></a></h1></div>
-      <nav class="fs-cell fs-lg-8 fs-md-6 fs-sm-3"><?php echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' ); ?></nav>
-    </div>
-  </header>
-
